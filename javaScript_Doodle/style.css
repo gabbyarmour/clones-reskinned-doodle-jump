@@ -1,0 +1,42 @@
+/*****************************************************
+Title: Doodle Jump
+Author: Ania Kubow
+Date: 2020
+Code version: 1.0
+Availability: https://github.com/kubowania/Doodle-Jump
+******************************************************/
+
+/* Note: The following code has been adapted/mostly copied from Ania Kubow's Doodle Jump.
+   Note2: I reskinned Doodle jump with my own Assets. */
+
+.grid {
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    background-image: url("robotman1.png");
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    color: green;
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-size: cover;
+    background-image: url("botboy4.png");
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-size: cover;
+    background-image: url("rainbowcloud2.png");
+    position: absolute;
+}
+
+/* Notes 5/16/2021:
+   Could only add botboy png with content tag. background and background image
+   didn't work.
+   Link: https://stackoverflow.com/questions/19204674/how-do-i-display-an-image-via-css-in-my-local-environment */
